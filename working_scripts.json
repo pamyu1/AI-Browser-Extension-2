@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "prompt": "make buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:32:32.747Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 2,
+    "prompt": "change background to light pink",
+    "code": "document.body.style.backgroundColor = 'pink';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:33:41.362Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 3,
+    "prompt": "change background to pink",
+    "code": "document.body.style.backgroundColor = 'pink';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:33:53.994Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 4,
+    "prompt": "change button to blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:44:31.539Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 5,
+    "prompt": "change background to light pink",
+    "code": "document.body.style.backgroundColor = 'pink';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:45:51.858Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 6,
+    "prompt": "make buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:55:15.061Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 7,
+    "prompt": "hide image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'none');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T13:55:39.214Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 8,
+    "prompt": "change buttons to pink",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'pink');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:16:58.676Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 9,
+    "prompt": "change buttons to light pink",
+    "code": "= 'black'); document.querySelectorAll('button').forEach(');",
+    "source": "ai",
+    "success": true,
+    "timestamp": "2025-08-10T14:28:23.279Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 10,
+    "prompt": "make buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:29:22.537Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 11,
+    "prompt": "make buttons red",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'red');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:29:26.544Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 12,
+    "prompt": "make buttons pink",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'pink');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:29:31.444Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 13,
+    "prompt": "make buttons purple",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'purple');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:29:35.973Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 14,
+    "prompt": "make text bold",
+    "code": "document.body.style.fontWeight = 'bold';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:30:01.426Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 15,
+    "prompt": "make text small",
+    "code": "document.body.style.fontSize = '12px';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:30:13.568Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 16,
+    "prompt": "make image small",
+    "code": "console.log('Executed: make image small');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:30:22.582Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 17,
+    "prompt": "hide image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'none');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:30:30.344Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 18,
+    "prompt": "show image",
+    "code": "console.log('Executed: show image');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:30:38.284Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 19,
+    "prompt": "show image",
+    "code": "console.log('Executed: show image');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:31:39.145Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 20,
+    "prompt": "make buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:44:28.526Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 21,
+    "prompt": "make backgroound pink",
+    "code": "console.log('Extension executed: make backgroound pink'); document.body.style.border = '2px solid green'; setTimeout(() => document.body.style.border = '', 2000);",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:44:53.846Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 22,
+    "prompt": "make background pink",
+    "code": "document.body.style.backgroundColor = 'pink';",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:44:57.481Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 23,
+    "prompt": "hide image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'none');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:12.562Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 24,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:15.432Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 25,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:18.478Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 26,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:19.477Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 27,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:19.677Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 28,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:19.826Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 29,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:19.977Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 30,
+    "prompt": "show image",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:45:20.111Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 31,
+    "prompt": "show images",
+    "code": "document.querySelectorAll('img').forEach(img => img.style.display = 'block');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-10T14:46:17.846Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 32,
+    "prompt": "make the buttons lbue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-13T07:33:23.706Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 33,
+    "prompt": "make the buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-13T07:33:28.127Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  },
+  {
+    "id": 34,
+    "prompt": "make button blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "source": "fallback",
+    "success": true,
+    "timestamp": "2025-08-13T07:44:02.599Z",
+    "url": "unknown",
+    "platform": "Darwin"
+  }
+]

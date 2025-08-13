@@ -1,0 +1,58 @@
+[
+  {
+    "prompt": "make buttons blue",
+    "code": "document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = 'blue');",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:09:02.781714",
+    "id": 1
+  },
+  {
+    "prompt": "change button to blue",
+    "code": "(\"button:hover\", \"background: #e1e1e1e1\", \"background: #f5f5f5f5\", \"button:active\")\n{\n    var el = document.createElement(\"style\")\n    el.style.fontName = \"Helvetica\"\n    document.style.fontSize = \"10pt\"\n    el.style.fontStyle = \";",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:10:20.693696",
+    "id": 2
+  },
+  {
+    "prompt": "change background to red",
+    "code": "(\"background:rgb(0,0,0);\", \"background:rgb(0,0,0);\")\n// DOM manipulation example:\ndocument.querySelectorAll(\"background:rgb(0,0,0);\", \"background:rgb(0,0,0);\")\n// DOM manipulation example:\ndocument.querySelectorAll(\"background:rgb(0,0;",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:10:46.637186",
+    "id": 3
+  },
+  {
+    "prompt": "make buttons blue",
+    "code": "(\"button\", \"button.id\")\n{\n    var a = new Date();\n    a.add(a.add(document.getDate().toString());\n    a.add(a.add(document.getTime().toString());\n    window.execute(\"document.date = new Date(\");\n    window.execute(\"document.time = new Time(\");\n    window.execute(\";",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:15:42.794862",
+    "id": 4
+  },
+  {
+    "prompt": "make buttons blue",
+    "code": "(\"button\", \"onmouseover\", \"onmouseout\")\n{\n    var el = document.createElement(\"button\")\n    el.setAttribute(\"onmouseover\", \"style.background-color = #FFFFFF; color: #FFFFFF;\")\n    el.setAttribute(\"onmouseout\", \"style.display-name = 'button';\"\n                \"onmouseover';\"\n                \";",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:15:48.801198",
+    "id": 5
+  },
+  {
+    "prompt": "hide images",
+    "code": "(\"div.querySelectorAll\").add_child(name='image')\n\n// JavaScript code to hide the text in the document\n// DOM manipulation example:\ndocument.querySelectorAll(\"div.querySelectorAll\").add_child(name='text')\n\n// The following line is a workaround for the bug in the JS code.\n\n// The following line is a workaround;",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:16:40.030524",
+    "id": 6
+  },
+  {
+    "prompt": "make buttons blue",
+    "code": "(\"button\")\n{\n    var s = document.createElement(\"style\")\n    s.setAttribute(\"width\", \"100%\");\n    s.setAttribute(\"height\", \"100%\");\n    s.setAttribute(\"background-color\", \"white\");\n    s.setAttribute(\"border-width\", \"100%\");\n    s.setAttribute(\"border-style\", \"background-color: #FFFFFF;",
+    "success": true,
+    "url": "chrome-extension://lcjlldbjhdppccondkkiegjkgllgdlla/popup.html",
+    "timestamp": "2025-08-10T22:26:11.468466",
+    "id": 7
+  }
+]
