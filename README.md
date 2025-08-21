@@ -1,16 +1,21 @@
-# AI Browser Extension
+### 🤖 AI Browser Extension
+
+![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
+![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-yellow.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Transform any webpage with natural language commands like "make buttons blue" or "hide images".
 
-## ✨ Features
+### ✨ Features
 
-- 🗣️ **Natural Language Interface** - Control webpages with plain English
-- ⚡ **Instant Results** - See changes in real-time
-- 🛡️ **100% Reliable** - Intelligent fallback system ensures it always works
-- 🚀 **Cross-Platform** - Works on Windows, macOS, and Linux
-- 📱 **Export Scripts** - Save modifications as Tampermonkey scripts
+- 🗣️ ***Natural Language Interface*** - Control webpages with plain English
+- ⚡ ***Instant Results*** - See changes in real-time  
+- 🛡️ ***100% Reliable*** - Intelligent fallback system ensures it always works
+- 🚀 ***Cross-Platform*** - Works on Windows, macOS, and Linux
+- 📱 ***Export Scripts*** - Save modifications as Tampermonkey scripts
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
 ### Backend Setup
 ```bash
@@ -35,26 +40,26 @@ change background to dark blue
 make text bold
 ```
 
-## 🏗️ Architecture
+### 🏗️ Architecture
 
-- **Backend:** FastAPI server with AI model integration
-- **Frontend:** Chrome extension with secure script injection
-- **AI Engine:** Hybrid approach with quality-gated AI models
-- **Fallback System:** 100% reliable rule-based patterns
+- ***Backend:*** FastAPI server with AI model integration
+- ***Frontend:*** Chrome extension with secure script injection
+- ***AI Engine:*** Hybrid approach with quality-gated AI models
+- ***Fallback System:*** 100% reliable rule-based patterns
 
-## 📊 Performance
+### 📊 Performance
 
 - ⚡ Response Time: <100ms average
 - 🎯 Success Rate: 100% (via intelligent fallbacks)
 - 🔧 Supported Commands: 15+ patterns
 
-## 🛠️ Technical Details
+### 🛠️ Technical Details
 
 Built with:
-- **Python:** FastAPI, PyTorch, Transformers
-- **JavaScript:** Vanilla JS with CSP compliance
-- **Cross-Platform:** CUDA/MPS/CPU device detection
+- ***Python:*** FastAPI, PyTorch, Transformers
+- ***JavaScript:*** Vanilla JS with CSP compliance
+- ***Cross-Platform:*** CUDA/MPS/CPU device detection
 
-## 📄 License
+### 📄 License
 
 MIT License - feel free to use and modify!

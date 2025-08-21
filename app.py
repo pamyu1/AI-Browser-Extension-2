@@ -6,6 +6,7 @@ import json
 import os
 import platform
 import torch
+from fastapi.responses import FileResponse
 
 app = FastAPI()
 
@@ -378,6 +379,148 @@ def smart_completion(prompt_start):
         return prompt_start + ";"
     
     return prompt_start + ";"
+
+@app.get("/test_page")
+def serve_test_page():
+    """Serve the test.html file for extension testing"""
+    try:
+        # Check if test.html exists in the project directory
+        if os.path.exists("test.html"):
+            return FileResponse("test.html")
+        else:
+            # Return a built-in test page if test.html doesn't exist
+            return create_test_page()
+    except Exception as e:
+        return {"error": f"Could not serve test page: {str(e)}"}
+
+@app.get("/test")
+def redirect_to_test():
+    """Alternative route for test page"""
+    return serve_test_page()
+
+def create_test_page():
+    """Create a built-in test page if test.html is missing"""
+    from fastapi.responses import HTMLResponse
+    
+    html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Browser Extension Test Page</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: #f5f5f5; 
+            line-height: 1.6;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button { 
+            padding: 12px 24px; 
+            margin: 8px; 
+            font-size: 16px; 
+            border: none; 
+            border-radius: 6px; 
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn-red { background: #e74c3c; color: white; }
+        .btn-blue { background: #3498db; color: white; }
+        .btn-green { background: #2ecc71; color: white; }
+        .btn-purple { background: #9b59b6; color: white; }
+        
+        img { 
+            width: 200px; 
+            height: 150px; 
+            margin: 10px; 
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .command-box {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .command {
+            background: #34495e;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        
+        h1 { color: #2c3e50; }
+        h3 { color: #34495e; margin-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Browser Extension Test Page</h1>
+        <p><strong>Instructions:</strong> Use your browser extension to test natural language commands on this page!</p>
+        
+        <div>
+            <h3>🔘 Test Buttons</h3>
+            <button class="btn-red">Button 1</button>
+            <button class="btn-blue">Button 2</button>
+            <button class="btn-green">Button 3</button>
+            <button class="btn-purple">Button 4</button>
+        </div>
+        
+        <div>
+            <h3>🖼️ Test Images</h3>
+            <img src="https://picsum.photos/200/150?random=1" alt="Test Image 1">
+            <img src="https://picsum.photos/200/150?random=2" alt="Test Image 2">
+            <img src="https://picsum.photos/200/150?random=3" alt="Test Image 3">
+        </div>
+        
+        <div class="command-box">
+            <h3>✨ Try These Commands:</h3>
+            <p><strong>Button Commands:</strong></p>
+            <ul>
+                <li><span class="command">make buttons purple</span> - Changes all button colors</li>
+                <li><span class="command">make buttons blue</span> - Changes all button colors to blue</li>
+                <li><span class="command">hide buttons</span> - Hides all buttons</li>
+            </ul>
+            
+            <p><strong>Image Commands:</strong></p>
+            <ul>
+                <li><span class="command">hide images</span> - Hides all images</li>
+                <li><span class="command">show images</span> - Shows hidden images</li>
+            </ul>
+            
+            <p><strong>Page Commands:</strong></p>
+            <ul>
+                <li><span class="command">change background to yellow</span> - Changes page background</li>
+                <li><span class="command">make text bold</span> - Makes all text bold</li>
+                <li><span class="command">make text bigger</span> - Increases text size</li>
+            </ul>
+        </div>
+        
+        <div style="background: #d5f4e6; padding: 15px; border-radius: 8px; margin-top: 20px;">
+            <h3>🎯 How to Test:</h3>
+            <ol>
+                <li>Make sure your AI Browser Extension is loaded in Chrome</li>
+                <li>Click the extension icon in your toolbar</li>
+                <li>Type any command from above</li>
+                <li>Click "Execute" and watch the magic happen!</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
+"""
+    return HTMLResponse(content=html_content)
 
 if __name__ == "__main__":
     import uvicorn

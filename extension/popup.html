@@ -81,19 +81,7 @@
         <div id="status"></div>
     </div>
     
+    <!-- REMOVED ALL INLINE JAVASCRIPT - MOVED TO popup.js -->
     <script src="popup.js"></script>
-    <script>
-        function testCommand(command) {
-            document.getElementById('prompt').value = command;
-            document.getElementById('send').click();
-        }
-        
-        function showStatus(message, isError = false) {
-            const status = document.getElementById('status');
-            status.textContent = message;
-            status.className = isError ? 'error' : 'success';
-            setTimeout(() => status.textContent = '', 3000);
-        }
-    </script>
 </body>
 </html>

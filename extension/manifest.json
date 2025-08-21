@@ -1,18 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "Page Tweaker",
-  "version": "1.0",
-  "description": "Generate and apply JS code to webpages using LLM",
+  "name": "AI Browser Extension",
+  "version": "1.0.0",
+  "description": "Transform webpages with natural language commands powered by AI",
   "permissions": [
     "activeTab",
     "scripting"
   ],
   "host_permissions": [
-    "file://*/*",
-    "http://*/*", 
-    "https://*/*"
+    "http://localhost:8000/*",
+    "http://127.0.0.1:8000/*"
   ],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "AI Browser Extension"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src http://localhost:8000 http://127.0.0.1:8000"
   }
 }
