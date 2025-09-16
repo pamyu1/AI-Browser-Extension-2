@@ -44,3 +44,5 @@ Thumbs.db
 
 # Model files (these are downloaded automatically)
 models/
+working_scripts.json
+saved_scripts.json
