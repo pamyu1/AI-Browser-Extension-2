@@ -46,3 +46,11 @@ Thumbs.db
 models/
 working_scripts.json
 saved_scripts.json
+
+# Personal data files - DO NOT COMMIT
+working_scripts.json
+saved_scripts.json
+scripts.json
+*.log
+user_data/
+temp/
